@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>${artifactId}</artifactId>
 	<groupId>${groupId}</groupId>
-	<version>${version}</version>
+	<version>${parent.version}</version>
 	<packaging>war</packaging>
 	<name>Entando Plugin: ${pluginName}</name>
 	<description>CHANGE ME! Enter some quick and useful info</description>
@@ -15,10 +15,6 @@
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>
-	<properties>
-		<project.parent.build.directory>../../target</project.parent.build.directory>
-		<project.parent.basedir>../..</project.parent.basedir>
-	</properties>
 	<build>
 		<plugins>
 			<plugin>
