@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.entando.entando</groupId>
 	<artifactId>entando-archetype-plugin-generic</artifactId>
-	<version>3.0.1-EEE-SNAPSHOT</version>
+	<version>3.0.1-EU-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
-	<name>E³ - Entando Enterprise Edition: Archetype for Generic Plugin</name>
+	<name>Entando EU Evolution: Archetype for Generic Plugin</name>
 	<description>Generic Plugin Archetype for Entando: an agile, modern and user-centric open source Portal platform.</description>
 	<url>http://www.entando.com/</url>
 	<licenses>
