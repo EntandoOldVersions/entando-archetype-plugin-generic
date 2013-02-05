@@ -15,13 +15,13 @@
 * Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
 *
 */
-package ${package}.aps;
+package ${package}.${pluginCode}.apsadmin;
 
 import com.agiletec.ConfigTestUtils;
-import com.agiletec.aps.BaseTestCase;
-import ${package}.PluginConfigTestUtils;
+import com.agiletec.apsadmin.ApsAdminBaseTestCase;
+import ${package}.${pluginCode}.PluginConfigTestUtils;
 
-public class ApsPluginBaseTestCase extends BaseTestCase {
+public class ApsAdminPluginBaseTestCase extends ApsAdminBaseTestCase {
 	
 	@Override
 	protected ConfigTestUtils getConfigUtils() {

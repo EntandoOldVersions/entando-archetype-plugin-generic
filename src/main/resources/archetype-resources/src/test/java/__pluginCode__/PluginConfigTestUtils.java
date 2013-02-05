@@ -15,22 +15,22 @@
 * Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
 *
 */
-package ${package}.apsadmin;
+package ${package}.${pluginCode};
 
 import com.agiletec.ConfigTestUtils;
-import com.agiletec.apsadmin.ApsAdminBaseTestCase;
-import ${package}.PluginConfigTestUtils;
 
-/**
- * BaseTestCase Class for jpuserprofile apsadmin tests.
- * You have to comment "getConfigUtils()" 
- * Methods for testing plugin into custom jAPS 2.0 project.
- */
-public class ApsAdminPluginBaseTestCase extends ApsAdminBaseTestCase {
+public class PluginConfigTestUtils extends ConfigTestUtils {
 	
 	@Override
-	protected ConfigTestUtils getConfigUtils() {
-		return new PluginConfigTestUtils();
-	}
+	protected String[] getSpringConfigFilePaths() {
+    	String[] filePaths = new String[6];
+		filePaths[0] = "classpath:spring/propertyPlaceholder.xml";
+		filePaths[1] = "classpath:spring/baseSystemConfig.xml";
+		filePaths[2] = "classpath*:spring/aps/**/**.xml";
+		filePaths[3] = "classpath*:spring/apsadmin/**/**.xml";
+		filePaths[4] = "classpath*:spring/plugins/**/aps/**/**.xml";
+		filePaths[5] = "classpath*:spring/plugins/**/apsadmin/**/**.xml";
+		return filePaths;
+    }
 	
 }

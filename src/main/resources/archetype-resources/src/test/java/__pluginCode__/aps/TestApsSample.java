@@ -1,6 +1,6 @@
-package ${package}.apsadmin;
+package ${package}.${pluginCode}.aps;
 
-public class TestApsAdminSample extends ApsAdminPluginBaseTestCase {
+public class TestApsSample extends ApsPluginBaseTestCase {
 	
 	@Override
 	protected void setUp() throws Exception {
