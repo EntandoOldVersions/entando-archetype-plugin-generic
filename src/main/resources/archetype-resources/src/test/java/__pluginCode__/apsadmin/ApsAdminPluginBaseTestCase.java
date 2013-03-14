@@ -1,6 +1,6 @@
 /*
 *
-* Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
+* Copyright 2013 Entando S.r.l. (http://www.entando.com) All rights reserved.
 *
 * This file is part of Entando software.
 * Entando is a free software; 
@@ -12,20 +12,15 @@
 * 
 * 
 * 
-* Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
+* Copyright 2013 Entando S.r.l. (http://www.entando.com) All rights reserved.
 *
 */
-package ${package}.apsadmin;
+package ${package}.${pluginCode}.apsadmin;
 
 import com.agiletec.ConfigTestUtils;
 import com.agiletec.apsadmin.ApsAdminBaseTestCase;
-import ${package}.PluginConfigTestUtils;
+import ${package}.${pluginCode}.PluginConfigTestUtils;
 
-/**
- * BaseTestCase Class for jpuserprofile apsadmin tests.
- * You have to comment "getConfigUtils()" 
- * Methods for testing plugin into custom jAPS 2.0 project.
- */
 public class ApsAdminPluginBaseTestCase extends ApsAdminBaseTestCase {
 	
 	@Override

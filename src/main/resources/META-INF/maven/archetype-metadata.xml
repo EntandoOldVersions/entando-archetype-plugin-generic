@@ -35,14 +35,17 @@
 			<includes>
 				<include>**/placeholder.txt</include>
 				<include>**/*.xml</include>
+				<include>**/*.sql</include>
 			</includes>
 		</fileSet>
+		<!--
 		<fileSet encoding="UTF-8">
 			<directory>src/main/sql</directory>
 			<includes>
 				<include>**/*.sql</include>
 			</includes>
 		</fileSet>
+		-->
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/tld</directory>
 			<includes>
@@ -70,14 +73,17 @@
 			<includes>
 				<include>**/placeholder.txt</include>
 				<include>**/*.xml</include>
+				<include>**/*.sql</include>
 			</includes>
 		</fileSet>
+		<!--
 		<fileSet encoding="UTF-8">
 			<directory>src/test/sql</directory>
 			<includes>
 				<include>**/*.sql</include>
 			</includes>
-		</fileSet>		
+		</fileSet>
+		-->
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>.settings</directory>
 			<includes>

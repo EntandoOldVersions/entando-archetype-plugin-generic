@@ -1,6 +1,6 @@
 /*
 *
-* Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
+* Copyright 2013 Entando S.r.l. (http://www.entando.com) All rights reserved.
 *
 * This file is part of Entando software.
 * Entando is a free software; 
@@ -12,13 +12,13 @@
 * 
 * 
 * 
-* Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
+* Copyright 2013 Entando S.r.l. (http://www.entando.com) All rights reserved.
 *
 */
-package ${package};
+package ${package}.${pluginCode};
 
-import ${package}.aps.TestApsSample;
-import ${package}.apsadmin.TestApsAdminSample;
+import ${package}.${pluginCode}.aps.TestApsSample;
+import ${package}.${pluginCode}.apsadmin.TestApsAdminSample;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
