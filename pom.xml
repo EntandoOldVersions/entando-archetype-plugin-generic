@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando</groupId>
 	<artifactId>entando-archetype-plugin-generic</artifactId>
-	<version>4.0.0</version>
+	<version>4.0.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 	<name>Entando: Archetype for Generic Plugin</name>
 	<description>Generic Plugin Archetype for Entando:  an agile, modern and user-centric open source portal-like platform.</description>
@@ -24,7 +24,7 @@
 		<connection>scm:git:git://github.com/entando/entando-archetype-plugin-generic.git</connection>
 		<developerConnection>scm:git:git@github.com:entando/entando-archetype-plugin-generic.git</developerConnection>
 		<url>https://github.com/entando/entando-archetype-plugin-generic</url>
-	  <tag>v4.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<developers>
 		<developer>
